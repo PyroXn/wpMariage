@@ -105,7 +105,7 @@ margin: 0 5% 0 5%;
 }
 .singular #content,
 .left-sidebar.singular #content {
-	margin: 0 7.6%;
+/*	margin: 0 7.6%;*/
 	position: relative;
 	width: auto;
 }
@@ -1122,14 +1122,17 @@ object {
         font-size: 24px;
         font-weight: bold;
         position: absolute;
-        left: 25px;
+/*        left: 25px;*/
+        padding-left: 25px;
+        padding-right: 88px;
 }
 .entry-header .comments-link a:hover,
 .entry-header .comments-link a:focus,
 .entry-header .comments-link a:active {
 /*         background-position: 0px -29px;*/
 	color: #fff;
-	color: rgba(255,255,255,0.8);
+        text-decoration: none;
+/*	color: rgba(255,255,255,0.8);*/
 }
 .entry-header .comments-link .leave-reply {
 	visibility: hidden;
@@ -1170,7 +1173,7 @@ article.format-status .entry-content {
 
 /* Singular content styles for Posts and Pages */
 .singular .hentry {
-	border-bottom: none;
+/*	border-bottom: none;*/
 	padding: 4.875em 0 0;
 	position: relative;
 }
@@ -1178,10 +1181,10 @@ article.format-status .entry-content {
 	padding: 3.5em 0 0;
 }
 .singular .entry-title {
-	color: #000;
+/*	color: #000;
 	font-size: 36px;
 	font-weight: bold;
-	line-height: 48px;
+	line-height: 48px;*/
 }
 .singular .entry-title,
 .singular .entry-header .entry-meta {
@@ -1190,7 +1193,7 @@ article.format-status .entry-content {
 .singular .entry-header .entry-meta {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 5px;
 }
 blockquote.pull {
 	font-size: 21px;
@@ -1226,7 +1229,7 @@ blockquote.pull.alignright {
 }
 .singular .entry-meta .edit-link a {
 	bottom: auto;
-	left: 50px;
+	left: 800px;
 	position: absolute;
 	right: auto;
 	top: 80px;
@@ -2149,11 +2152,12 @@ a.comment-reply-link > span {
 
 /* Comment Form */
 #respond {
+        
 	background: #ddd;
 	border: 1px solid #d3d3d3;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	margin: 0 auto 1.625em;
+	margin: 5px auto 1.625em;
 	padding: 1.625em;
 	position: relative;
 	width: 68.9%;
