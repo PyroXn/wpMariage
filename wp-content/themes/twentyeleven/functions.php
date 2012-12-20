@@ -647,3 +647,10 @@ function my_function_admin_bar(){
 }
 add_filter( 'show_admin_bar' , 'my_function_admin_bar');
 
+function pyro_posted_on() {
+	printf( __( '<span class="author vcard">Par <a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span>', 'twentyeleven' ),
+		esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
+		esc_attr( sprintf( __( 'View all posts by %s', 'twentyeleven' ), get_the_author() ) ),
+		get_the_author()
+	);
+}
