@@ -2790,3 +2790,7 @@ p.comment-form-comment {
 #ie8 section.feature-image.large img {
 	width: 100%;
 }
+
+#disqus_thread {
+    margin-top: 10px;
+}
