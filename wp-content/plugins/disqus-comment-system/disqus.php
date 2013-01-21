@@ -851,12 +851,13 @@ function dsq_comments_number($count) {
 
 function dsq_comments_text($comment_text) {
     global $post;
-
-    if ( dsq_can_replace() ) {
-        return '<span class="dsq-postid" rel="'.htmlspecialchars(dsq_identifier_for_post($post)).'">'.$comment_text.'</span>';
-    } else {
-        return $comment_text;
-    }
+    $number_of_comments = get_comments_number();
+    return $number_of_comments;
+//    if ( dsq_can_replace() ) {
+//        return '<span class="dsq-postid" rel="'.htmlspecialchars(dsq_identifier_for_post($post)).'">'.$comment_text.'</span>';
+//    } else {
+//        return $comment_text;
+//    }
 }
 
 function dsq_bloginfo_url($url) {
