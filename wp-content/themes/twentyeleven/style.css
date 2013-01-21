@@ -114,7 +114,7 @@ margin: 0 5% 0 5%;
 .singular footer.entry-meta,
 .singular #comments-title {
 /*	margin: 0 auto;*/
-	width: 68.9%;
+/*	width: 68.9%;*/
 }
 
 /* Attachments */
@@ -1010,6 +1010,8 @@ img[class*="wp-image-"],
 #content .gallery .gallery-icon img {/* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
 /*	border: 1px solid #ddd;
 	padding: 6px;*/
+
+    margin-left: 13%;
     max-width: 578px;
     height: auto;
     padding: 10px;
@@ -1178,7 +1180,7 @@ article.format-status .entry-content {
 	position: relative;
 }
 .singular.page .hentry {
-	padding: 3.5em 0 0;
+/*	padding: 3.5em 0 0;*/
 }
 .singular .entry-title {
 /*	color: #000;
