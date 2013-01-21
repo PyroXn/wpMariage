@@ -69,7 +69,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed">
-        <h1 id="logo"><a href="http://localhost/wordpress/">Sabine et Pierre</a></h1>
+        <h1 id="logo"><a href="http://sabinepierre.fr">Sabine et Pierre</a></h1>
 	<header id="branding" role="banner">
 			<hgroup>
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
