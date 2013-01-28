@@ -765,7 +765,7 @@ a:hover {
 }
 .hentry,
 .no-results {
-    background: transparent url(images/edito-bg.jpg) 100% 20px no-repeat;
+    background: transparent url(images/edito-bg.png) 100% 20px no-repeat;
     border-bottom: 1px solid #ddd;
 /*    margin: 0 0 1.625em;*/
     padding: 30px 30px 0px;
